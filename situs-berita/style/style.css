@@ -1,0 +1,26 @@
+table, th, td {
+    border: 1px solid;
+}
+tr:hover {background-color: coral;}
+tr:nth-child(even) {background-color: #f2f2f2;}
+th {
+    background-color: #04AA6D;
+    color: white;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+background-color: #04AA6D;
+border: none;
+color: white;
+padding: 16px 32px;
+text-decoration: none;
+margin: 4px 2px;
+cursor: pointer;
+}
